@@ -1,5 +1,5 @@
-[![CI](https://github.com/goggle/AdventOfCode2021.jl/workflows/CI/badge.svg)](https://github.com/goggle/AdventOfCode2021.jl/actions?query=workflow%3ACI+branch%3Amaster)
-[![Code coverage](https://codecov.io/gh/goggle/AdventOfCode2021.jl/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/goggle/AdventOfCode2021.jl?branch=master)
+[![CI](https://github.com/totoroot/AdventOfCode2021.jl/workflows/CI/badge.svg)](https://github.com/totoroot/AdventOfCode2021.jl/actions?query=workflow%3ACI+branch%3Amaster)
+[![Code coverage](https://codecov.io/gh/totoroot/AdventOfCode2021.jl/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/totoroot/AdventOfCode2021.jl?branch=master)
 
 # AdventOfCode2021.jl
 
@@ -9,14 +9,14 @@ This Julia package contains my solutions for [Advent of Code 2021](https://adven
 
 | Day | Problem | Time | Allocated memory | Source |
 |----:|:-------:|-----:|-----------------:|:------:|
-| 1 | [:white_check_mark:](https://adventofcode.com/2021/day/1) |  |  | [:white_check_mark:](https://github.com/goggle/AdventOfCode2021.jl/blob/master/src/day01.jl) |
+| 1 | [:white_check_mark:](https://adventofcode.com/2021/day/1) |  |  |  |
 
 
 The benchmarks have been measured on this machine:
 ```
 Platform Info:
-  OS: Linux (x86_64-pc-linux-gnu)
-  CPU: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+  OS: NixOS 21.11 (Porcupine) x86_64
+  CPU: AMD Ryzen 5 3600X (12) @ 3.800GHz
   WORD_SIZE: 64
   LIBM: libopenlibm
   LLVM: libLLVM-6.0.1 (ORCJIT, ivybridge)
@@ -39,7 +39,7 @@ environment:
 
 Install `AdventOfCode2021.jl`:
 ```
-(aoc) pkg> add https://github.com/goggle/AdventOfCode2021.jl
+(aoc) pkg> add https://github.com/totoroot/AdventOfCode2021.jl
 ```
 
 Go back to the Julia REPL by pushing the `backspace` button.

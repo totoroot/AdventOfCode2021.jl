@@ -1,6 +1,6 @@
 name = "AdventOfCode2021"
-uuid = "2836b301-409c-4acb-ad96-82c338bb79f9"
-authors = ["Alexander Seiler <seileralex@gmail.com>"]
+uuid = "f2b348b7-6912-494f-b16f-a8a24ae76723"
+authors = ["Matthias Thym <git@thym.at>"]
 version = "0.1.0"
 
 [deps]
