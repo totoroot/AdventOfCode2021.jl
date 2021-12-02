@@ -1,5 +1,5 @@
-[![CI](https://github.com/totoroot/AdventOfCode2021.jl/workflows/CI/badge.svg)](https://github.com/totoroot/AdventOfCode2021.jl/actions?query=workflow%3ACI+branch%3Amaster)
-[![Code coverage](https://codecov.io/gh/totoroot/AdventOfCode2021.jl/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/totoroot/AdventOfCode2021.jl?branch=master)
+<!-- [![CI](https://github.com/totoroot/AdventOfCode2021.jl/workflows/CI/badge.svg)](https://github.com/totoroot/AdventOfCode2021.jl/actions?query=workflow%3ACI+branch%3Amaster) -->
+<!-- [![Code coverage](https://codecov.io/gh/totoroot/AdventOfCode2021.jl/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/totoroot/AdventOfCode2021.jl?branch=master) -->
 
 # AdventOfCode2021.jl
 
@@ -10,6 +10,7 @@ This Julia package contains my solutions for [Advent of Code 2021](https://adven
 | Day | Problem | Median Time | Memory estimate | Source |
 |----:|:-------:|-----:|-----------------:|:------:|
 | 1 | [:white_check_mark:](https://adventofcode.com/2021/day/1) | 279.994 μs | 479.16 KiB | [:white_check_mark:](https://github.com/totoroot/AdventOfCode2021.jl/blob/master/src/day01.jl) |
+| 2 | [:white_check_mark:](https://adventofcode.com/2021/day/2) | 101.683 μs | 64.78 KiB | [:white_check_mark:](https://github.com/totoroot/AdventOfCode2021.jl/blob/master/src/day02.jl) |
 
 
 The benchmarks have been measured on this machine:
