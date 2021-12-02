@@ -1,7 +1,6 @@
 module Day01
 
 using AdventOfCode2021
-using BenchmarkTools
 
 function increase(array::Vector)
     # First draft that is much easier to comprehend
@@ -23,9 +22,9 @@ function increase(array::Vector)
     return count(element < next for (element, next) ∈ zip(array[1:end-1], array[2:end]))
 end;
 
-function day01(input::String = readInput(joinpath(@__DIR__, "..", "data", "day01.txt")))
+function day01(input::Array = readlines(joinpath(@__DIR__, "..", "data", "day01.txt")))
     # Create array from string with measurements loaded from file
-    measurements = parse.(Int, split(input))
+    measurements = parse.(Int, input)
     # Sum up depth measurements in rolling windows
     sums = [sum(measurements[i:i+2]) for i in 1:length(measurements)-2]
 
@@ -34,3 +33,5 @@ end;
 
 # end module
 end
+
+# print(Day01.day01())
