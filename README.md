@@ -7,9 +7,9 @@ This Julia package contains my solutions for [Advent of Code 2021](https://adven
 
 ## Overview
 
-| Day | Problem | Time | Allocated memory | Source |
+| Day | Problem | Median Time | Memory estimate | Source |
 |----:|:-------:|-----:|-----------------:|:------:|
-| 1 | [:white_check_mark:](https://adventofcode.com/2021/day/1) |  |  |  |
+| 1 | [:white_check_mark:](https://adventofcode.com/2021/day/1) | 279.994 μs | 479.16 KiB | [:white_check_mark:](https://github.com/totoroot/AdventOfCode2021.jl/blob/master/src/day01.jl) |
 
 
 The benchmarks have been measured on this machine:
@@ -17,11 +17,14 @@ The benchmarks have been measured on this machine:
 Platform Info:
   OS: NixOS 21.11 (Porcupine) x86_64
   CPU: AMD Ryzen 5 3600X (12) @ 3.800GHz
-  WORD_SIZE: 64
-  LIBM: libopenlibm
-  LLVM: libLLVM-6.0.1 (ORCJIT, ivybridge)
 ```
 
+Run a benchmark in REPL with:
+
+```julia
+julia> using BenchmarkTools
+julia> @benchmark AdventOfCode2021.Day01.day01()
+```
 
 ## Installation and Usage
 
